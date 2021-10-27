@@ -1,7 +1,10 @@
 #!/bin/ruby
 
 p "あいうえお"
-i = 1
-ary = Array.new(3, "yeah")
+i = 3
+ary = ["yeah1", "yeah2", "yeah3"]
 
+0.upto(2) do |num|
+  p ary[num]
+end
 
