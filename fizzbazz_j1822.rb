@@ -1,7 +1,7 @@
 #!/bin/ruby
 
 i = 1
-#while(i <= 100) do
+while(i <= 100) do
   if (i % 3 == 0 && i % 5 == 0)
     p "FizzBuzz"
   elsif (i % 5 == 0)
@@ -11,4 +11,5 @@ i = 1
   else
     p i
   end
+  i = i + 1
 end
